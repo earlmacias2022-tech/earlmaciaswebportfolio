@@ -1,0 +1,781 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Earl Macias — IT student and developer. Websites, desktop systems, and databases that work."
+    />
+    <title>Earl Macias | Software Developer</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/myfavicon.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="site">
+      <header class="nav" id="top">
+        <div class="status">
+          <h1>&lt; EarlDevx /&gt;</h1>
+        </div>
+
+        <input
+          class="menu-checkbox"
+          type="checkbox"
+          id="mobile-menu-toggle"
+          aria-label="Toggle navigation menu"
+        />
+        <label class="menu-toggle" for="mobile-menu-toggle" aria-controls="primary-navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="navlinks" id="primary-navigation" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#journey">Journey</a>
+          <a href="#projects">Projects</a>
+          <a href="#certifications">Certificates</a>
+          <a href="#contact" class="cont">Contact</a>
+        </nav>
+
+        <a class="pill" href="#contact">Let's talk ↗</a>
+      </header>
+
+      <main>
+        <!-- HERO -->
+        <section class="hero" aria-label="Introduction" id="home">
+          <div class="heroMark">
+            <span id="heroGhost">EARL MACIAS</span>
+          </div>
+
+          <div class="heroInner">
+            <h1>
+              <span class="lineMask"
+                ><span class="lineIn outline">Earl</span></span
+              >
+              <span class="lineMask"><span class="lineIn">Macias</span></span>
+            </h1>
+
+            <div class="heroBody">
+              <div class="heroText">
+                <h2>IT Student &amp; Developer</h2>
+                <p>
+                  I build websites, desktop systems, and databases. I study
+                  information technology, and I turn what I learn into software
+                  people can actually use.
+                </p>
+
+                <div class="ctaRow">
+                  <a class="pill magnetic" href="#projects"
+                    >View my projects ↗</a
+                  >
+                  <a class="pill ghosted magnetic" href="#contact"
+                    >Contact me</a
+                  >
+                </div>
+              </div>
+
+              <div class="medallionFrame" aria-label="Portrait of Earl Macias">
+                <div class="medallion" id="medallion">
+                  <svg
+                    viewBox="0 0 400 400"
+                    role="img"
+                    aria-label="Decorative ring"
+                  >
+                    <g class="ringSpin">
+                      <circle
+                        cx="200"
+                        cy="200"
+                        r="192"
+                        fill="none"
+                        stroke="#111"
+                        stroke-width="1"
+                        stroke-dasharray="3 9"
+                      />
+                      <circle cx="200" cy="8" r="6" fill="#111" />
+                      <circle
+                        cx="200"
+                        cy="392"
+                        r="4"
+                        fill="#b8ff63"
+                        stroke="#111"
+                        stroke-width="1"
+                      />
+                    </g>
+                    <circle
+                      cx="200"
+                      cy="200"
+                      r="160"
+                      fill="#fbfbf8"
+                      stroke="#111"
+                      stroke-width="1.5"
+                    />
+                  </svg>
+                  <img
+                    class="medallionImg"
+                    src="assets/earl-macias.png"
+                    alt="Portrait of Earl Macias"
+                  />
+                </div>
+              </div>
+
+              <div class="heroSide">
+                <p>Right now I'm deep in</p>
+                <a href="#skills">Web development ↗</a>
+                <a href="#skills">Databases ↗</a>
+                <a href="#skills">UI design ↗</a>
+              </div>
+            </div>
+
+            <div class="heroSocials" aria-label="Social links">
+              <a
+                class="heroSocial"
+                href="https://www.facebook.com/earljustinekent.macias.3"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.3-1.6 1.6-1.6h1.7V3.5c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.6v1.9H7v3.1h2.8v8h3.7z"
+                    fill="currentColor"
+                    stroke="none"
+                  /></svg
+              ></a>
+              <a
+                class="heroSocial"
+                href="https://github.com/earlmacias2022-tech"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.5 5.5 0 0 0 19.3 3.7 5.1 5.1 0 0 0 19.2 0S18 0 15.5 1.7a13.4 13.4 0 0 0-7 0C6 0 4.8 0 4.8 0a5.1 5.1 0 0 0-.1 3.7A5.5 5.5 0 0 0 3.2 7.5c0 5.4 3.5 6.6 6.8 7A4.8 4.8 0 0 0 9 18v4"
+                  />
+                  <path d="M9 18c-4.5 2-5-2-7-2" />
+                </svg>
+              </a>
+              <a
+                class="heroSocial"
+                href="https://www.instagram.com/earlmaccxz/?hl=en"
+                target="_blank"
+                aria-label="Instagram placeholder"
+              >
+                <svg viewBox="0 0 24 24">
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle
+                    cx="17.5"
+                    cy="6.5"
+                    r=".8"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                </svg>
+              </a>
+              <a
+                class="heroSocial"
+                href="https://www.linkedin.com/in/earl-justine-kent-l-macias-942757430/?isSelfProfile=true"
+                target="_blank"
+                aria-label="LinkedIn placeholder"
+              >
+                <svg viewBox="0 0 24 24">
+                  <path d="M6 9v12" />
+                  <path d="M6 6.2v.1" />
+                  <path d="M10 21V9" />
+                  <path d="M10 13a4 4 0 0 1 8 0v8" />
+                  <path d="M2.5 9h7" />
+                </svg>
+              </a>
+              <a
+                class="heroSocial"
+                href="mailto:earlmacias2022@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+              >
+                <svg viewBox="0 0 24 24">
+                  <rect x="3" y="5" width="18" height="14" rx="2" />
+                  <path d="m3 7 9 6 9-6" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="heroScroll">Scroll to explore</div>
+          </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+          <div class="ghost">ABOUT</div>
+
+          <h2 class="intro">
+            <span class="lineMask"
+              ><span class="lineIn">I turn ideas into</span></span
+            >
+            <span class="lineMask"
+              ><span class="lineIn">working software.</span></span
+            >
+            <span class="lineMask"
+              ><span class="lineIn">Websites, school systems,</span></span
+            >
+            <span class="lineMask"
+              ><span class="lineIn">and small tools that help.</span></span
+            >
+          </h2>
+
+          <div class="facts">
+            <div class="fact">
+              <span>Role</span><strong>IT Student &amp; Developer</strong>
+            </div>
+            <div class="fact">
+              <span>Stack</span
+              ><strong>HTML · CSS · JavaScript · C · C# · SQL · Java</strong>
+            </div>
+            <div class="fact">
+              <span>Learning next</span><strong>Ai Workflow Automation</strong>
+            </div>
+            <div class="fact">
+              <span>Workflow</span><strong>Build · Test · Improve</strong>
+            </div>
+          </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+          <div class="ghost">SKILLS</div>
+
+          <div class="services">
+            <div class="service">
+              <div>
+                <strong>WEB DEVELOPMENT</strong
+                ><small>Responsive sites and interfaces</small>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+            <div class="service">
+              <div>
+                <strong>PROGRAMMING</strong
+                ><small>C, C#, and problem solving</small>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+            <div class="service">
+              <div>
+                <strong>DATABASES</strong><small>SQL schemas and queries</small>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+            <div class="service">
+              <div>
+                <strong>UI / UX</strong
+                ><small>Layouts people can actually use</small>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+            <div class="service">
+              <div>
+                <strong>SYSTEM DEVELOPMENT</strong
+                ><small>Desktop tools for daily work</small>
+              </div>
+              <span class="arrow">↗</span>
+            </div>
+          </div>
+
+          <div class="skillsMeta">
+            <div class="bigCount">
+              <span>9</span><sup>tools I reach for daily</sup>
+            </div>
+            <small
+              >Scroll the strip below every one of them shows up in my
+              projects.</small
+            >
+          </div>
+
+          <div class="marquee" aria-hidden="true">
+            <div class="marqueeTrack">
+              <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span
+              ><span>C</span><span>C#</span><span>SQL</span><span>GIT</span
+              ><span>GITHUB</span><span>UI / UX</span> <span>HTML</span
+              ><span>CSS</span><span>JAVASCRIPT</span><span>C</span
+              ><span>C#</span><span>SQL</span><span>GIT</span><span>GITHUB</span
+              ><span>UI / UX</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- JOURNEY -->
+        <section class="section dark" id="journey">
+          <div class="ghost">JOURNEY</div>
+          <div class="timeline">
+            <div class="row">
+              <strong>BSIT · Information Technology</strong><span>Current</span
+              ><em>Academic foundation</em>
+            </div>
+            <div class="row">
+              <strong>Web Development</strong><span>Current</span
+              ><em>HTML · CSS · JavaScript</em>
+            </div>
+            <div class="row">
+              <strong>Software Development</strong><span>Current</span
+              ><em>C · C# · desktop systems</em>
+            </div>
+            <div class="row">
+              <strong>Database Systems</strong><span>Current</span
+              ><em>SQL · data-driven applications</em>
+            </div>
+            <div class="row">
+              <strong>Personal Projects</strong><span>Ongoing</span
+              ><em>Build · Test · Improve</em>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+          <div class="ghost">PROJECTS</div>
+
+          <div class="projects">
+            <article class="work tilt">
+              <div class="workInfo">
+                <div>
+                  <span class="num">01 / WEB</span>
+                  <h3>Portfolio Website</h3>
+                  <p>
+                    A responsive personal portfolio built with HTML, CSS, and
+                    JavaScript, with motion, smooth navigation, and a clean
+                    editorial layout.
+                  </p>
+                </div>
+                <div class="tags">
+                  <span class="tag">HTML</span><span class="tag">CSS</span
+                  ><span class="tag">JavaScript</span>
+                </div>
+              </div>
+              <div class="workVisual">
+                <img
+                  src="./assets/portfolio.png"
+                  alt="Preview of Earl Macias portfolio website"
+                  loading="lazy"
+                />
+                <a
+                  class="projectLink pill"
+                  href="https://earlmacias.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Live Demo ↗</a
+                >
+                <span class="projectNumber">01</span>
+              </div>
+            </article>
+
+            <article class="work tilt">
+              <div class="workInfo">
+                <div>
+                  <span class="num">02 / SYSTEM</span>
+                  <h3>Attendance Management System</h3>
+                  <p>
+                    A C# desktop system for recording student attendance,
+                    organizing records, and generating attendance reports.
+                  </p>
+                </div>
+                <div class="tags">
+                  <span class="tag">C#</span><span class="tag">SQL Server</span
+                  ><span class="tag">Windows Forms</span>
+                </div>
+              </div>
+              <div class="workVisual">
+                <img
+                  src="./assets/attendancesystem.png"
+                  alt="Preview of Attendance Management System"
+                  loading="lazy"
+                />
+                <a
+                  class="projectLink pill"
+                  href="#contact"
+                  aria-label="Ask about the Attendance Management System project"
+                  >Ask About It ↗</a
+                >
+                <span class="projectNumber">02</span>
+              </div>
+            </article>
+
+            <article class="work tilt">
+              <div class="workInfo">
+                <div>
+                  <span class="num">03 / SYSTEM</span>
+                  <h3>Barangay Management System</h3>
+                  <p>
+                    A desktop management system designed to organize barangay
+                    records and make everyday administrative tasks easier to
+                    handle.
+                  </p>
+                </div>
+                <div class="tags">
+                  <span class="tag">C#</span><span class="tag">SQL Server</span
+                  ><span class="tag">Windows Forms</span>
+                </div>
+              </div>
+              <div class="workVisual">
+                <img
+                  src="./assets/barangay-management-system.png"
+                  alt="Preview of Barangay Management System"
+                  loading="lazy"
+                />
+                <a
+                  class="projectLink pill"
+                  href="#contact"
+                  aria-label="Ask about the Barangay Management System project"
+                  >Ask About It ↗</a
+                >
+                <span class="projectNumber">03</span>
+              </div>
+            </article>
+
+            <article class="work tilt">
+              <div class="workInfo">
+                <div>
+                  <span class="num">04 / WEB</span>
+                  <h3>Class Optima</h3>
+                  <p>
+                    A web-based attendance management system for recording
+                    student attendance and keeping class records organized.
+                  </p>
+                </div>
+                <div class="tags">
+                  <span class="tag">HTML</span><span class="tag">CSS</span
+                  ><span class="tag">JavaScript</span
+                  ><span class="tag">PHP</span><span class="tag">MySQL</span>
+                </div>
+              </div>
+              <div class="workVisual">
+                <img
+                  src="./assets/classoptima.png"
+                  alt="Preview of Class Optima"
+                  loading="lazy"
+                />
+                <a
+                  class="projectLink pill"
+                  href="#contact"
+                  aria-label="Ask about the Class Optima project"
+                  >Ask About It ↗</a
+                >
+                <span class="projectNumber">04</span>
+              </div>
+            </article>
+
+            <article class="work tilt">
+              <div class="workInfo">
+                <div>
+                  <span class="num">05 / WEB</span>
+                  <h3>NonaEarl PisoWifi</h3>
+                  <p>
+                    A commercial web page for a Piso WiFi service, focused on
+                    presenting the offer clearly and making the service easy to
+                    understand.
+                  </p>
+                </div>
+                <div class="tags">
+                  <span class="tag">HTML</span><span class="tag">CSS</span
+                  ><span class="tag">JavaScript</span>
+                </div>
+              </div>
+              <div class="workVisual">
+                <img
+                  src="./assets/nonaearlpisowifi.png"
+                  alt="Preview of NonaEarl PisoWifi commercial website"
+                  loading="lazy"
+                />
+                <a
+                  class="projectLink pill"
+                  href="#contact"
+                  aria-label="Ask about the NonaEarl PisoWifi project"
+                  >Ask About It ↗</a
+                >
+                <span class="projectNumber">05</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section class="section dark certifications" id="certifications">
+          <div class="ghost">CERTIFICATES</div>
+
+          <div class="certHeading">
+            <div>
+              <span class="certEyebrow">LEARNING · PRACTICE · PROGRESS</span>
+              <p>
+                A few courses and learning milestones that helped me build my
+                skills in web development and beyond.
+              </p>
+            </div>
+            <span class="certCount">03 <small>CERTIFICATES</small></span>
+          </div>
+
+          <div class="certificateGrid">
+            <article class="certificateCard">
+              <div class="certificatePreview">
+                <span class="certificateType">CERTIFICATE OF COMPLETION</span>
+                <span class="certificatePreviewTitle">HTML</span>
+                <span class="certificatePreviewRule"></span>
+                <span class="certificatePreviewName">Earl Macias</span>
+                <span class="certificatePreviewCorner">01</span>
+              </div>
+              <div class="certificateInfo">
+                <div class="certificateMeta">
+                  <span>WEB DEVELOPMENT</span><span>01 / 03</span>
+                </div>
+                <h3>HTML Essentials</h3>
+                <p>
+                  Learning the foundations of HTML and how to structure web
+                  pages.
+                </p>
+                <a
+                  class="certificateLink"
+                  href="assets/HTMLEssentialCertificate.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  >View certificate <span>↗</span></a
+                >
+              </div>
+            </article>
+
+            <article class="certificateCard">
+              <div class="certificatePreview">
+                <span class="certificateType">CERTIFICATE OF COMPLETION</span>
+                <span class="certificatePreviewTitle">CSS</span>
+                <span class="certificatePreviewRule"></span>
+                <span class="certificatePreviewName">Earl Macias</span>
+                <span class="certificatePreviewCorner">02</span>
+              </div>
+              <div class="certificateInfo">
+                <div class="certificateMeta">
+                  <span>WEB DEVELOPMENT</span><span>02 / 03</span>
+                </div>
+                <h3>CSS Essentials</h3>
+                <p>
+                  Building a foundation in styling, layouts, and visual
+                  presentation with CSS.
+                </p>
+                <a
+                  class="certificateLink"
+                  href="assets/CSSEssentialsCertificate.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  >View certificate <span>↗</span></a
+                >
+              </div>
+            </article>
+
+            <article class="certificateCard">
+              <div class="certificatePreview">
+                <span class="certificateType">CERTIFICATE OF COMPLETION</span>
+                <span class="certificatePreviewTitle">PROMPT</span>
+                <span class="certificatePreviewRule"></span>
+                <span class="certificatePreviewName">Earl Macias</span>
+                <span class="certificatePreviewCorner">03</span>
+              </div>
+              <div class="certificateInfo">
+                <div class="certificateMeta">
+                  <span>AI &amp; PRODUCTIVITY</span><span>03 / 03</span>
+                </div>
+                <h3>Prompt Like an Engineer</h3>
+                <p>
+                  Exploring structured prompting and ways to communicate clearly
+                  with AI tools.
+                </p>
+                <a
+                  class="certificateLink"
+                  href="assets/PromptLikeanEngineerCertificatei.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  >View certificate <span>↗</span></a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+          <div class="ghost">CONTACT</div>
+
+          <h2>
+            <span class="lineMask"
+              ><span class="lineIn">Have a project</span></span
+            >
+            <span class="lineMask"><span class="lineIn">in mind?</span></span>
+          </h2>
+
+          <p>
+            Tell me what you need. I'll tell you honestly whether I can build
+            it, and how fast I can learn what I don't know yet.
+          </p>
+
+          <div class="contactCtas">
+            <a
+              class="pill-contact magnetic"
+              href="https://www.facebook.com/earljustinekent.macias.3"
+              >Contact me ↗</a
+            >
+          </div>
+
+          <div class="socials">
+            <a
+              class="heroSocial"
+              href="mailto:earlmacias2022@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+            >
+              <svg viewBox="0 0 24 24">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 7 9 6 9-6" />
+              </svg>
+            </a>
+            <a
+              class="heroSocial"
+              href="https://github.com/earlmacias2022-tech"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+            >
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.3-.4 6.8-1.6 6.8-7A5.5 5.5 0 0 0 19.3 3.7 5.1 5.1 0 0 0 19.2 0S18 0 15.5 1.7a13.4 13.4 0 0 0-7 0C6 0 4.8 0 4.8 0a5.1 5.1 0 0 0-.1 3.7A5.5 5.5 0 0 0 3.2 7.5c0 5.4 3.5 6.6 6.8 7A4.8 4.8 0 0 0 9 18v4"
+                />
+                <path d="M9 18c-4.5 2-5-2-7-2" />
+              </svg>
+            </a>
+            <a
+              class="heroSocial"
+              href="https://www.instagram.com/earlmaccxz/?hl=en"
+              target="_blank"
+              aria-label="Instagram placeholder"
+              ><svg viewBox="0 0 24 24">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle
+                  cx="17.5"
+                  cy="6.5"
+                  r=".8"
+                  fill="currentColor"
+                  stroke="none"
+                /></svg
+            ></a>
+            <a
+              class="heroSocial"
+              href="https://www.linkedin.com/in/earl-justine-kent-l-macias-942757430/?isSelfProfile=true"
+              target="_blank"
+              aria-label="LinkedIn placeholder"
+              ><svg viewBox="0 0 24 24">
+                <path d="M6 9v12" />
+                <path d="M6 6.2v.1" />
+                <path d="M10 21V9" />
+                <path d="M10 13a4 4 0 0 1 8 0v8" />
+                <path d="M2.5 9h7" /></svg
+            ></a>
+            <a
+              class="heroSocial"
+              href="https://www.facebook.com/earljustinekent.macias.3"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M13.5 21v-8h2.7l.4-3.1h-3.1V7.9c0-.9.3-1.6 1.6-1.6h1.7V3.5c-.3 0-1.4-.1-2.6-.1-2.6 0-4.4 1.6-4.4 4.6v1.9H7v3.1h2.8v8h3.7z"
+                  fill="currentColor"
+                  stroke="none"
+                /></svg
+            ></a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="siteFooter">
+        <div class="footerMain">
+          <div class="footerIntro">
+            <a class="footerBrand" href="#home"
+              >&lt; EarlDevx <span>/&gt;</span></a
+            >
+            <p class="footerTagline">
+              Turning ideas into useful digital experiences.
+            </p>
+            <a class="footerCta" href="#contact"
+              >Have a project in mind? <span>↗</span></a
+            >
+          </div>
+
+          <div class="footerColumn">
+            <span class="footerLabel">EXPLORE</span>
+            <nav class="footerLinks" aria-label="Footer navigation">
+              <a href="#home">Home</a>
+              <a href="#about">About me</a>
+              <a href="#skills">Skills</a>
+              <a href="#journey">Journey</a>
+              <a href="#certifications">Certificates</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+            </nav>
+          </div>
+
+          <div class="footerColumn">
+            <span class="footerLabel">LET'S CONNECT</span>
+            <div class="footerSocials" aria-label="Social media links">
+              <a
+                href="https://github.com/earlmacias2022-tech"
+                target="_blank"
+                rel="noreferrer"
+                >GitHub <span>↗</span></a
+              >
+              <a
+                href="https://www.facebook.com/earljustinekent.macias.3"
+                target="_blank"
+                rel="noreferrer"
+                >Facebook <span>↗</span></a
+              >
+              <a
+                href="https://www.instagram.com/earlmaccxz/?hl=en"
+                target="_blank"
+                rel="noreferrer"
+                >Instagram <span>↗</span></a
+              >
+              <a
+                href="https://www.linkedin.com/in/earl-justine-kent-l-macias-942757430/?isSelfProfile=true"
+                target="_blank"
+                rel="noreferrer"
+                >LinkedIn <span>↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footerBottom">
+          <span>© 2026 Earl Macias. All rights reserved.</span>
+          <span class="footerMade"
+            >Designed &amp; built with <span aria-label="love">♥</span> by
+            Earl</span
+          >
+          <a class="backToTop" href="#home">Back to top ↑</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
